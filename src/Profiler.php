@@ -22,9 +22,8 @@ final class Profiler
     private $shutdownFunction;
 
     /**
-     * @param StorageInterface $storage
-     * @param null $flags
-     * @param array $options
+     * @param integer|null $flags
+     * @param array        $options
      */
     public function __construct($flags = null, array $options = array())
     {
@@ -54,7 +53,7 @@ final class Profiler
 
         $that = $this;
 
-        register_shutdown_function(function() use ($that) {
+        register_shutdown_function(function () use ($that) {
             register_shutdown_function(array($that, 'executeShutdown'));
         });
 
@@ -79,7 +78,7 @@ final class Profiler
 
         $data = xhprof_disable();
 
-        if(function_exists('fastcgi_finish_request')) {
+        if (function_exists('fastcgi_finish_request')) {
             fastcgi_finish_request();
         }
 

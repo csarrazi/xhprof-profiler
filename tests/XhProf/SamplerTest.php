@@ -50,4 +50,4 @@ class SamplerTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue($countA/$countB <= 2.5);
         $this->assertTrue($countA/$countB >= 1.5);
     }
-} 
+}

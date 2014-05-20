@@ -74,7 +74,7 @@ class ProfilerTest extends \PHPUnit_Framework_TestCase
 
         for ($i = 0; $i < 10; $i++) {
             call_user_func_array(
-                function($arr1, $arr2) {
+                function ($arr1, $arr2) {
                     return array_merge($arr1, $arr2);
                 },
                 array(array("hello"), array("world"))
@@ -121,4 +121,3 @@ class ProfilerTest extends \PHPUnit_Framework_TestCase
         );
     }
 }
- 

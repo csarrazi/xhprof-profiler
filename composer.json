@@ -1,5 +1,5 @@
 {
-    "name": "csa/xhprof-persister",
+    "name": "csa/xhprof-profiler",
     "description": "A small abstraction in front of the xhprof extension, with storage support",
     "license": "MIT",
     "authors": [
@@ -13,7 +13,9 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "ext-xhprof": "*"
+        "ext-xhprof": "*",
+        "xhprof-common": "~1.0",
+        "xhprof-persister": "~1.0"
     },
     "minimum-stability": "dev",
     "extra": {
