@@ -14,8 +14,8 @@
     "require": {
         "php": ">=5.3.3",
         "ext-xhprof": "*",
-        "xhprof-common": "~1.0",
-        "xhprof-persister": "~1.0"
+        "csa/xhprof-common": "~1.0",
+        "csa/xhprof-persister": "~1.0"
     },
     "minimum-stability": "dev",
     "extra": {
