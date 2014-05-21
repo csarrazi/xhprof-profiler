@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "f63ce27661f5f3227848cc0bbe5eafe4",
+    "hash": "f0b635d72f429fae6c81d44ce6a2226c",
     "packages": [
         {
             "name": "csa/xhprof-common",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/csarrazi/xhprof-common.git",
-                "reference": "85f534504100956a8f8d903e0f5f02dc8c747e8f"
+                "reference": "de79680aa52e843a052ac49f17d8c4ffab3aceb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/csarrazi/xhprof-common/zipball/85f534504100956a8f8d903e0f5f02dc8c747e8f",
-                "reference": "85f534504100956a8f8d903e0f5f02dc8c747e8f",
+                "url": "https://api.github.com/repos/csarrazi/xhprof-common/zipball/de79680aa52e843a052ac49f17d8c4ffab3aceb6",
+                "reference": "de79680aa52e843a052ac49f17d8c4ffab3aceb6",
                 "shasum": ""
             },
             "require": {
@@ -30,7 +30,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "1.2.x-dev"
                 }
             },
             "autoload": {
@@ -49,7 +49,7 @@
                 }
             ],
             "description": "Common classes for the csa/xhprof-* libraries",
-            "time": "2014-05-20 22:57:22"
+            "time": "2014-05-21 06:14:32"
         },
         {
             "name": "csa/xhprof-persister",
@@ -57,12 +57,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/csarrazi/xhprof-persister.git",
-                "reference": "169f6b2f67e4a3a43e635c6616801647b81ffa0a"
+                "reference": "6206b1777456bdb7a43666d996bb799f668c51f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/csarrazi/xhprof-persister/zipball/169f6b2f67e4a3a43e635c6616801647b81ffa0a",
-                "reference": "169f6b2f67e4a3a43e635c6616801647b81ffa0a",
+                "url": "https://api.github.com/repos/csarrazi/xhprof-persister/zipball/6206b1777456bdb7a43666d996bb799f668c51f5",
+                "reference": "6206b1777456bdb7a43666d996bb799f668c51f5",
                 "shasum": ""
             },
             "require": {
@@ -76,7 +76,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "1.2.x-dev"
                 }
             },
             "autoload": {
@@ -95,7 +95,7 @@
                 }
             ],
             "description": "Allows the persistance of traces",
-            "time": "2014-05-20 23:59:34"
+            "time": "2014-05-21 06:14:02"
         }
     ],
     "packages-dev": [
