@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "f0b635d72f429fae6c81d44ce6a2226c",
+    "hash": "d3e0d210bcc6b6d211ca568402651bc0",
     "packages": [
         {
             "name": "csa/xhprof-common",
@@ -57,12 +57,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/csarrazi/xhprof-persister.git",
-                "reference": "6206b1777456bdb7a43666d996bb799f668c51f5"
+                "reference": "4fc166a6b471d54ebcab717872a27b212784541e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/csarrazi/xhprof-persister/zipball/6206b1777456bdb7a43666d996bb799f668c51f5",
-                "reference": "6206b1777456bdb7a43666d996bb799f668c51f5",
+                "url": "https://api.github.com/repos/csarrazi/xhprof-persister/zipball/4fc166a6b471d54ebcab717872a27b212784541e",
+                "reference": "4fc166a6b471d54ebcab717872a27b212784541e",
                 "shasum": ""
             },
             "require": {
@@ -95,7 +95,7 @@
                 }
             ],
             "description": "Allows the persistance of traces",
-            "time": "2014-05-21 06:14:02"
+            "time": "2014-05-21 06:30:42"
         }
     ],
     "packages-dev": [
